@@ -61,7 +61,7 @@ public class GitLab implements EntryPoint {
 			@Override
 			public void onSuccess(List<IUser> result) {
 				displayUsers(result);
-				//Window.alert("Got list back with " +  result.size() + " entries");
+				Window.alert("Got list back with " +  result.size() + " entries");
 				
 			}});
 		
