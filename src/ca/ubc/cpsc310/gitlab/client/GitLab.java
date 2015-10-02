@@ -54,15 +54,15 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onFailure(Throwable caught) {
+					// Conflict Fixed
 					Window.alert("Causing conflict for second account");
-				
 			}
 
 			@Override
 			public void onSuccess(List<IUser> result) {
 				displayUsers(result);
-				Window.alert("Got list back with " +  result.size() + " entries");
-				
+				// Conflict Fixed
+				Window.alert("Alert with different text to cause conflict");
 			}});
 		
 	}
