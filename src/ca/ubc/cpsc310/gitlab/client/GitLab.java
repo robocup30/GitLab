@@ -61,6 +61,7 @@ public class GitLab implements EntryPoint {
 			@Override
 			public void onSuccess(List<IUser> result) {
 				displayUsers(result);
+				// Conflict Fixed
 				Window.alert("Alert with different text to cause conflict");
 			}});
 		
