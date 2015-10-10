@@ -8,7 +8,7 @@ import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
 public class User implements IUser {
 
 	
-	private static final long serialVersionUID = -4678920906536621479L;
+	private static final long serialVersionUID = -678920906536621479L;
 	
 	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
 	private List<ProductItem> wishList = new ArrayList<ProductItem>();
